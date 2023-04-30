@@ -859,4 +859,7 @@
         <item>org.lineageos.aperture.dev</item>
     </string-array>
 
+<!-- Unlock ripple animation -->
+    <bool name="config_enableUnlockRippleAnimation">false</bool>
+
 </resources>
