@@ -36,4 +36,4 @@ BUILD_FINGERPRINT := POCO/veux_p_global/veux:12/SKQ1.211006.001/V13.0.9.0.SKCMIX
 
 #Maintainer's Shit
 WITH_GAPPS := true
-BANANA_MAINTAINER := Ameya Gurjar (BlackCat)
+BANANA_MAINTAINER := AmeyaGurjar(BlackCat)
