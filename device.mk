@@ -303,6 +303,10 @@ PRODUCT_PACKAGES += \
     libstagefright_softomx.vendor
 
 # Overlays
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
+# Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     AvoidAppsInCutoutOverlay \
