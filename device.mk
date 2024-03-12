@@ -333,7 +333,8 @@ PRODUCT_PACKAGES += \
     WifiOverlayS88008BA1 \
     WifiOverlayS88106BA1 \
     WifiOverlayS88107BA1 \
-    ApertureOverlay
+    ApertureOverlay \
+    ApertureQRScannerOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
