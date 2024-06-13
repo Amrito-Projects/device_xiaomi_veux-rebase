@@ -122,6 +122,10 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    liblz4.vendor \
+    libpng.vendor
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
@@ -220,6 +224,9 @@ PRODUCT_PACKAGES += \
     gnss@2.0-base.policy \
     gnss@2.0-xtra-daemon.policy
 
+PRODUCT_PACKAGES += \
+    libcurl.vendor
+
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.freeform_window_management.xml
@@ -275,7 +282,10 @@ PRODUCT_PACKAGES += \
 
 # Net
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor \
+    android.system.net.netd@1.1.vendor
+
+PRODUCT_PACKAGES += \
+    libnetutils.vendor
 
 # Neural Networks
 PRODUCT_PACKAGES += \
@@ -306,6 +316,9 @@ PRODUCT_PACKAGES += \
     libstagefright_omx \
     libstagefright_foundation \
     libstagefright_softomx.vendor
+
+PRODUCT_PACKAGES += \
+    libstagefright_softomx_plugin.vendor
 
 # Overlays
 PRODUCT_PACKAGES += \
@@ -348,6 +361,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2 \
     vendor.qti.hardware.perf@2.2.vendor
+
+PRODUCT_PACKAGES += \
+    libssl.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -418,6 +434,11 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+PRODUCT_PACKAGES += \
+    libsqlite \
+    libjsoncpp.vendor \
+    libsqlite.vendor
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
@@ -445,6 +466,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     librmnetctl
+
+
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
 
 # Ramdisk
 PRODUCT_PACKAGES += \
